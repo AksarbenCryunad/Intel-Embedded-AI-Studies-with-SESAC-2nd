@@ -1,0 +1,6 @@
+pytest
+setuptools
+wheel
+PyYAML
+lark
+pydocstyle

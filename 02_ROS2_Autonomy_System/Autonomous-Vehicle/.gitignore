@@ -1,0 +1,10 @@
+.vscode/
+.venv/
+.env/
+.pytest_cache/
+
+__pycache__/
+
+*.pt
+*.pth
+*.ckpt

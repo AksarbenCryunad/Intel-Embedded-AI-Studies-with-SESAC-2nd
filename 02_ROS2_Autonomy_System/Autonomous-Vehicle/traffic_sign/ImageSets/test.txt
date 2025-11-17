@@ -1,0 +1,5 @@
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_38.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_79.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_114.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_17.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_59.jpg

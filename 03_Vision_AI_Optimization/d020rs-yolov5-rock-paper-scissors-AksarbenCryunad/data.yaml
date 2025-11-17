@@ -1,0 +1,13 @@
+train: /home/intel/repointel/d020rs-yolov5-rock-paper-scissors-AksarbenCryunad/train/images
+val: /home/intel/repointel/d020rs-yolov5-rock-paper-scissors-AksarbenCryunad/valid/images
+test: /home/intel/repointel/d020rs-yolov5-rock-paper-scissors-AksarbenCryunad/test/images
+
+nc: 3
+names: ['Paper', 'Rock', 'Scissors']
+
+roboflow:
+  workspace: roboflow-58fyf
+  project: rock-paper-scissors-sxsw
+  version: 14
+  license: Private
+  url: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw/dataset/14

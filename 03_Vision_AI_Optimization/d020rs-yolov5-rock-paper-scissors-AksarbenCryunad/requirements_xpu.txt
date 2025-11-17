@@ -1,0 +1,24 @@
+--index-url https://download.pytorch.org/whl/xpu
+--extra-index-url https://pypi.org/simple
+--extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+torch==2.8.0+xpu
+torchvision==0.23.0+xpu
+intel-extension-for-pytorch==2.8.10+xpu
+oneccl_bind_pt==2.8.0+xpu
+# YOLOv5 dependancies.
+gitpython>=3.1.30
+matplotlib>=3.3
+numpy>=1.23.5
+opencv-python>=4.1.1
+Pillow>=10.0.1
+psutil  # system resources
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+thop>=0.1.1  # FLOPs computation
+tqdm>=4.64.0
+ultralytics>=8.0.232
+pandas>=1.1.4
+seaborn>=0.11.0
+onnx>=1.10.0  # ONNX export
+setuptools>=65.5.1 # Snyk vulnerability fix

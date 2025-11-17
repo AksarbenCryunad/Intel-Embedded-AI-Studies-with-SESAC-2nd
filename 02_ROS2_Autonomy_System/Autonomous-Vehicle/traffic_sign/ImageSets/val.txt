@@ -1,0 +1,16 @@
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_50.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_1.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_10.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_96.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_35.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_25.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_60.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_92.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_112.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_55.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_101.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_15.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_28.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_74.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_119.jpg
+/home/ubuntu/shared/traffic_sign/JPEGImages/image_34.jpg

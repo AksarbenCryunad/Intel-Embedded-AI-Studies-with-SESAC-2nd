@@ -1,0 +1,10 @@
+names:
+- go
+- right
+- park
+- red
+- green
+- crosswalk
+nc: 6
+train: /home/ubuntu/shared/traffic_sign/ImageSets/train.txt
+val: /home/ubuntu/shared/traffic_sign/ImageSets/val.txt

@@ -1,0 +1,30 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Image color filters
+      id: image-color-filters
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Image color filters
+        setup-command: pip install -r requirements.txt
+        command: python -m pytest
+        timeout: 10
+        max-score: 10
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        IMAGE-COLOR-FILTERS_RESULTS: "${{steps.image-color-filters.outputs.result}}"
+      with:
+        runners: image-color-filters

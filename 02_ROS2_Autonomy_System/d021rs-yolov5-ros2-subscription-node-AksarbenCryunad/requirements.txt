@@ -1,0 +1,11 @@
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+colcon-common-extensions
+rosdep
+rosinstall_generator
+vcstool
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+yolov5
+onnx
+lark
