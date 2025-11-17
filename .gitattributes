@@ -1,0 +1,5 @@
+# Linguist에게 다음 폴더와 파일은 언어 카운트에서 무시하라고 지시합니다.
+01_HW_Firmware_Control/** linguist-language=Python
+02_ROS2_Autonomy_System/** linguist-language=Python
+*.h linguist-vendored
+*.hpp linguist-vendored
