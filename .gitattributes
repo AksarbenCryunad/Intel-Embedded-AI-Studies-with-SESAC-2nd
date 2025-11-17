@@ -1,5 +1,13 @@
-# Linguist에게 다음 폴더와 파일은 언어 카운트에서 무시하라고 지시합니다.
+# 1. 모든 주요 폴더를 Python 프로젝트로 간주하도록 설정합니다.
 01_HW_Firmware_Control/** linguist-language=Python
 02_ROS2_Autonomy_System/** linguist-language=Python
+03_Vision_AI_Optimization/** linguist-language=Python
+04_Core_Programming_Foundations/** linguist-language=Python
+
+# 2. C/C++ 헤더 파일 무시 (vendored)
 *.h linguist-vendored
 *.hpp linguist-vendored
+
+# 3. 대용량 모델 파일 (.pt, .weights)을 언어 카운트에서 무시하도록 설정합니다. (03번 폴더 경고 해결)
+*.pt linguist-vendored
+*.weights linguist-vendored
